@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Richellou L. Arbuis — Senior Web Developer. Portfolio, expertise, and contact." />
+  <title>Richellou L. Arbuis — Senior Web Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Decorative ambient background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--2" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">R</span>
+        <span class="nav__logo-text">arbuis<span class="accent">.</span>dev</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" class="nav__link"><span class="nav__num">01</span>About</a>
+        <a href="#expertise" class="nav__link"><span class="nav__num">02</span>Expertise</a>
+        <a href="#experience" class="nav__link"><span class="nav__num">03</span>Experience</a>
+        <a href="#skills" class="nav__link"><span class="nav__num">04</span>Skills</a>
+        <a href="#education" class="nav__link"><span class="nav__num">05</span>Education</a>
+        <a href="#contact" class="nav__cta">Get in touch <span aria-hidden="true">→</span></a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Available for freelance · Cebu, PH</p>
+
+          <h1 class="hero__title">
+            <span class="hero__line reveal">Richellou</span>
+            <span class="hero__line reveal">L. Arbuis<span class="accent">.</span></span>
+          </h1>
+
+          <p class="hero__role reveal">
+            <span class="hero__role-line"></span>
+            Senior Web Developer
+          </p>
+
+          <p class="hero__headline reveal">
+            I have created <strong class="accent">200+ websites</strong>. A highly passionate
+            and creative Web Developer/Designer with a strong foundation in building
+            visually appealing and functional websites.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a href="#contact" class="btn btn--primary">
+              Start a project <span aria-hidden="true">→</span>
+            </a>
+            <a href="#experience" class="btn btn--ghost">View experience</a>
+          </div>
+
+          <ul class="hero__stats reveal">
+            <li>
+              <span class="hero__stat-num">200<span class="accent">+</span></span>
+              <span class="hero__stat-label">Websites built</span>
+            </li>
+            <li>
+              <span class="hero__stat-num">10<span class="accent">+</span></span>
+              <span class="hero__stat-label">Years in tech</span>
+            </li>
+            <li>
+              <span class="hero__stat-num">4</span>
+              <span class="hero__stat-label">Languages supported</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__portrait reveal">
+          <div class="portrait">
+            <div class="portrait__glow" aria-hidden="true"></div>
+            <div class="portrait__frame">
+              <img
+                src="https://raw.githubusercontent.com/artchill/Chelo-Arbuis/main/chelo.jpg"
+                alt="Portrait of Richellou L. Arbuis"
+                class="portrait__img"
+                loading="eager"
+              />
+              <div class="portrait__noise" aria-hidden="true"></div>
+            </div>
+            <div class="portrait__tag portrait__tag--top">
+              <span class="dot"></span> online
+            </div>
+            <div class="portrait__tag portrait__tag--bottom">
+              <span class="mono">&lt;/&gt;</span> sr.web.dev
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="mono">scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num mono">01 ——</span>
+          <h2 class="section__title">About<span class="accent">.</span></h2>
+        </header>
+
+        <div class="about__grid">
+          <p class="about__lead">
+            Equipped with a diverse skill set and a keen eye for detail.
+          </p>
+          <p class="about__body">
+            I strive to create seamless and intuitive interfaces that leave a
+            lasting impression. From corporate platforms to multilingual
+            international sites, every project is an opportunity to merge clean
+            engineering with thoughtful design.
+          </p>
+          <div class="about__meta">
+            <div class="about__meta-row">
+              <span class="mono muted">based in</span>
+              <span>Cebu, Philippines</span>
+            </div>
+            <div class="about__meta-row">
+              <span class="mono muted">focus</span>
+              <span>Web Dev · UI Design · Systems</span>
+            </div>
+            <div class="about__meta-row">
+              <span class="mono muted">status</span>
+              <span><span class="ping"></span>Open to new work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section" id="expertise">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num mono">02 ——</span>
+          <h2 class="section__title">Services &amp; Expertise<span class="accent">.</span></h2>
+          <p class="section__sub">
+            Over <strong class="accent">200 websites</strong> and custom web systems
+            delivered — from boutique brand sites to international platforms.
+          </p>
+        </header>
+
+        <div class="services">
+          <article class="service" data-tilt>
+            <div class="service__top">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="14" rx="1.5"/>
+                  <path d="M3 8h18M7 12h6M7 15h4"/>
+                </svg>
+              </span>
+              <span class="service__num mono">01</span>
+            </div>
+            <h3 class="service__title">Corporate Websites</h3>
+            <p class="service__desc">
+              Polished, conversion-focused sites for businesses that need to look
+              authoritative and load fast.
+            </p>
+            <span class="service__arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="service" data-tilt>
+            <div class="service__top">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 4h11a3 3 0 0 1 3 3v13l-3-2-3 2-3-2-3 2-2-1V4z"/>
+                  <path d="M8 9h6M8 13h4"/>
+                </svg>
+              </span>
+              <span class="service__num mono">02</span>
+            </div>
+            <h3 class="service__title">Author Websites</h3>
+            <p class="service__desc">
+              Personal platforms for authors and creators with elegant typography,
+              book showcases, and reader engagement.
+            </p>
+            <span class="service__arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="service" data-tilt>
+            <div class="service__top">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="9" cy="20" r="1.4"/>
+                  <circle cx="17" cy="20" r="1.4"/>
+                  <path d="M3 4h2l2.5 11h11l2-7H6"/>
+                </svg>
+              </span>
+              <span class="service__num mono">03</span>
+            </div>
+            <h3 class="service__title">E-commerce Platforms</h3>
+            <p class="service__desc">
+              Shopify and custom storefronts with smooth checkout flows, optimized
+              product pages, and scalable inventory systems.
+            </p>
+            <span class="service__arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="service" data-tilt>
+            <div class="service__top">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M8 4l-5 8 5 8M16 4l5 8-5 8M14 4l-4 16"/>
+                </svg>
+              </span>
+              <span class="service__num mono">04</span>
+            </div>
+            <h3 class="service__title">Custom Web Systems</h3>
+            <p class="service__desc">
+              Bespoke dashboards, internal tools, and tailored back-office systems
+              built to match exact business logic.
+            </p>
+            <span class="service__arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="service service--wide" data-tilt>
+            <div class="service__top">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="9"/>
+                  <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+                </svg>
+              </span>
+              <span class="service__num mono">05</span>
+            </div>
+            <h3 class="service__title">Multilingual &amp; International Websites</h3>
+            <p class="service__desc">
+              Fully localized experiences across <strong>Japanese</strong>,
+              <strong>Chinese</strong>, <strong>Taiwanese</strong>, and
+              <strong>Korean</strong> — with attention to typography, layout
+              direction, and cultural nuance.
+            </p>
+            <div class="service__tags">
+              <span class="chip mono">日本語</span>
+              <span class="chip mono">中文</span>
+              <span class="chip mono">繁體</span>
+              <span class="chip mono">한국어</span>
+            </div>
+            <span class="service__arrow" aria-hidden="true">→</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num mono">03 ——</span>
+          <h2 class="section__title">Work Experience<span class="accent">.</span></h2>
+          <p class="section__sub">A decade across freelance, agency, and in-house roles.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">2024 — Present</span>
+                <span class="badge badge--current">Current</span>
+              </div>
+              <h3 class="timeline__role">Senior Web Developer · Freelance</h3>
+              <p class="timeline__company">Digitspark</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">Jul 2024 — Present</span>
+                <span class="badge badge--current">Current</span>
+              </div>
+              <h3 class="timeline__role">Web Developer / Graphic Designer</h3>
+              <p class="timeline__company">Allied Fusion Services Inc.</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">Feb 2024 — Present</span>
+                <span class="badge badge--current">Current</span>
+              </div>
+              <h3 class="timeline__role">Senior Web Developer · Freelance</h3>
+              <p class="timeline__company">Oasis Media Enterprise OPC</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">Jan 2024 — Present</span>
+                <span class="badge badge--current">Current</span>
+              </div>
+              <h3 class="timeline__role">Senior Web Developer · Freelance</h3>
+              <p class="timeline__company">Dreamland Media Services</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">2022 — 2024</span>
+              </div>
+              <h3 class="timeline__role">Senior Web Developer</h3>
+              <p class="timeline__company">Creative Media Marketing</p>
+              <p class="timeline__note">Managed and mentored junior web developers.</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">2021</span>
+              </div>
+              <h3 class="timeline__role">Web Developer</h3>
+              <p class="timeline__company">Diamond Media Press Co.</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">2019 — 2021</span>
+              </div>
+              <h3 class="timeline__role">Web Developer</h3>
+              <p class="timeline__company">Japan Intertrade Callcenter Corporation</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span class="mono timeline__date">2013 — 2016</span>
+              </div>
+              <h3 class="timeline__role">IT Support Specialist</h3>
+              <p class="timeline__company">Prime Parts Fabricators &amp; Development Corp.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num mono">04 ——</span>
+          <h2 class="section__title">Skills &amp; Stack<span class="accent">.</span></h2>
+          <p class="section__sub">The toolkit I reach for, refined over a decade of shipping.</p>
+        </header>
+
+        <div class="skills">
+          <div class="skills__group">
+            <div class="skills__head">
+              <span class="mono muted">{ 01 }</span>
+              <h3>Programming</h3>
+            </div>
+            <ul class="tags">
+              <li class="tag">HTML / CSS</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">PHP</li>
+              <li class="tag">WordPress</li>
+              <li class="tag">Angular</li>
+              <li class="tag">C</li>
+              <li class="tag">Shopify</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <div class="skills__head">
+              <span class="mono muted">{ 02 }</span>
+              <h3>Software &amp; Tools</h3>
+            </div>
+            <ul class="tags">
+              <li class="tag">Source Tree</li>
+              <li class="tag">MSSQL</li>
+              <li class="tag">Visual Studio</li>
+              <li class="tag">Trello</li>
+              <li class="tag">Git</li>
+              <li class="tag">Wix</li>
+              <li class="tag">Photoshop</li>
+              <li class="tag">Premiere Pro</li>
+              <li class="tag">Canva</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <div class="skills__head">
+              <span class="mono muted">{ 03 }</span>
+              <h3>Professional</h3>
+            </div>
+            <ul class="tags">
+              <li class="tag tag--alt">Communication</li>
+              <li class="tag tag--alt">Web Designing</li>
+              <li class="tag tag--alt">Leadership</li>
+              <li class="tag tag--alt">Problem Solving</li>
+              <li class="tag tag--alt">Software Troubleshooting</li>
+              <li class="tag tag--alt">Project Management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num mono">05 ——</span>
+          <h2 class="section__title">Education<span class="accent">.</span></h2>
+        </header>
+
+        <article class="edu">
+          <div class="edu__year mono">2019</div>
+          <div class="edu__body">
+            <h3 class="edu__school">University of San Carlos</h3>
+            <p class="edu__degree">
+              Bachelor of Science in Information &amp; Communication Technology
+            </p>
+            <span class="edu__badge mono">Graduated</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num mono">06 ——</span>
+          <h2 class="section__title contact__title">
+            Let's build<br />something<span class="accent"> sharp</span>.
+          </h2>
+          <p class="section__sub">
+            Have a project, a system, or an international site in mind? Reach out.
+          </p>
+        </header>
+
+        <div class="contact__grid">
+          <a href="mailto:cheluarbuis@gmail.com" class="contact__card">
+            <span class="mono muted contact__label">email</span>
+            <span class="contact__value">cheluarbuis@gmail.com</span>
+            <span class="contact__arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a href="tel:+639422926585" class="contact__card">
+            <span class="mono muted contact__label">mobile</span>
+            <span class="contact__value">0942 292 6585</span>
+            <span class="contact__arrow" aria-hidden="true">→</span>
+          </a>
+
+          <div class="contact__card contact__card--static">
+            <span class="mono muted contact__label">location</span>
+            <span class="contact__value">Cebu, Philippines</span>
+            <span class="contact__arrow" aria-hidden="true">◉</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="mono">© <span id="year"></span> Richellou L. Arbuis — All rights reserved.</p>
+      <p class="mono muted">Designed &amp; built with care · Cebu, PH</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
